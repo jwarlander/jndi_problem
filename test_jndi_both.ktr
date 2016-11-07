@@ -124,8 +124,8 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Table input</from><to>Join Rows &#x28;cartesian product&#x29;</to><enabled>Y</enabled> </hop>
-  <hop> <from>Table input 2</from><to>Join Rows &#x28;cartesian product&#x29;</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table input JW_TEST1</from><to>Join Rows &#x28;cartesian product&#x29;</to><enabled>Y</enabled> </hop>
+  <hop> <from>Table input JW_TEST2</from><to>Join Rows &#x28;cartesian product&#x29;</to><enabled>Y</enabled> </hop>
   <hop> <from>Join Rows &#x28;cartesian product&#x29;</from><to>Write to log</to><enabled>Y</enabled> </hop>
   </order>
   <step>
@@ -160,7 +160,7 @@
     </step>
 
   <step>
-    <name>Table input</name>
+    <name>Table input JW_TEST1</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -186,7 +186,7 @@
     </step>
 
   <step>
-    <name>Table input 2</name>
+    <name>Table input JW_TEST2</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
