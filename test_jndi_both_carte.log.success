@@ -1,0 +1,61 @@
+2016/11/08 15:05:10 - test_jndi_both - Dispatching started for transformation [test_jndi_both]
+2016/11/08 15:05:10 - Table input JW_TEST2.0 - Finished reading query, closing connection.
+2016/11/08 15:05:10 - Table input JW_TEST2.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2016/11/08 15:05:10 - Table input JW_TEST1.0 - Finished reading query, closing connection.
+2016/11/08 15:05:10 - Table input JW_TEST1.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 1------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 1
+2016/11/08 15:05:10 - Write to log.0 - c = a
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 2------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 1
+2016/11/08 15:05:10 - Write to log.0 - c = b
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 3------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 1
+2016/11/08 15:05:10 - Write to log.0 - c = c
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 4------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 2
+2016/11/08 15:05:10 - Write to log.0 - c = a
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 5------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 2
+2016/11/08 15:05:10 - Write to log.0 - c = b
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 6------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 2
+2016/11/08 15:05:10 - Write to log.0 - c = c
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 7------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 3
+2016/11/08 15:05:10 - Write to log.0 - c = a
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 8------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 3
+2016/11/08 15:05:10 - Write to log.0 - c = b
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ------------> Linenr 9------------------------------
+2016/11/08 15:05:10 - Write to log.0 - n = 3
+2016/11/08 15:05:10 - Write to log.0 - c = c
+2016/11/08 15:05:10 - Write to log.0 - 
+2016/11/08 15:05:10 - Write to log.0 - ====================
+2016/11/08 15:05:10 - Join Rows (cartesian product).0 - Finished processing (I=0, O=0, R=6, W=9, U=0, E=0)
+2016/11/08 15:05:10 - Write to log.0 - Finished processing (I=0, O=0, R=9, W=9, U=0, E=0)

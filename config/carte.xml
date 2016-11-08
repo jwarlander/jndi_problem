@@ -1,0 +1,11 @@
+<slave_config>
+    <slaveserver>
+        <name>Master</name>
+        <networking_interface>eth0</networking_interface>
+        <port>9001</port>
+        <username>johwar</username>
+        <password>password</password>
+        <master>Y</master>
+    </slaveserver>
+    <object_timeout_minutes>60</object_timeout_minutes>
+</slave_config>

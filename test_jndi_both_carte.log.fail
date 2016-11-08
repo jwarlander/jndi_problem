@@ -1,0 +1,55 @@
+2016/11/08 15:04:32 - Carte - Created listener for webserver @ address : null:9001
+2016/11/08 15:04:38 - test_jndi_both - Dispatching started for transformation [test_jndi_both]
+org.pentaho.di.core.exception.KettleDatabaseException: 
+An error occurred executing SQL: 
+SELECT c FROM bar
+ERROR: relation "bar" does not exist
+  Position: 15
+	at org.pentaho.di.core.database.Database.openQuery(Database.java:1716)
+	at org.pentaho.di.trans.steps.tableinput.TableInput.doQuery(TableInput.java:224)
+	at org.pentaho.di.trans.steps.tableinput.TableInput.processRow(TableInput.java:138)
+	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "bar" does not exist
+  Position: 15
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:561)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:405)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:285)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.pentaho.di.core.database.Database.openQuery(Database.java:1705)
+	... 4 more
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - ERROR (version 6.1.0.6-242, build 1 from 2016-09-20 13.19.30 by buildguy) : Unexpected error
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - ERROR (version 6.1.0.6-242, build 1 from 2016-09-20 13.19.30 by buildguy) : org.pentaho.di.core.exception.KettleDatabaseException: 
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - An error occurred executing SQL: 
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - SELECT c FROM bar
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - ERROR: relation "bar" does not exist
+2016/11/08 15:04:39 - Table input JW_TEST2.0 -   Position: 15
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.pentaho.di.core.database.Database.openQuery(Database.java:1716)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.pentaho.di.trans.steps.tableinput.TableInput.doQuery(TableInput.java:224)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.pentaho.di.trans.steps.tableinput.TableInput.processRow(TableInput.java:138)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at java.lang.Thread.run(Thread.java:745)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - Caused by: org.postgresql.util.PSQLException: ERROR: relation "bar" does not exist
+2016/11/08 15:04:39 - Table input JW_TEST2.0 -   Position: 15
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2198)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1927)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:561)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:405)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:285)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	at org.pentaho.di.core.database.Database.openQuery(Database.java:1705)
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - 	... 4 more
+child index = 4, logging object : org.pentaho.di.core.logging.LoggingObject@2242eae5 parent=22836ac1-55db-416f-97cb-c6002f022065
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - Finished reading query, closing connection.
+2016/11/08 15:04:39 - Table input JW_TEST2.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2016/11/08 15:04:39 - test_jndi_both - Transformation detected one or more steps with errors.
+2016/11/08 15:04:39 - test_jndi_both - Transformation is killing the other steps!
+2016/11/08 15:04:39 - Table input JW_TEST1.0 - Finished reading query, closing connection.
+2016/11/08 15:04:39 - Table input JW_TEST1.0 - Finished processing (I=2, O=0, R=0, W=0, U=0, E=0)
